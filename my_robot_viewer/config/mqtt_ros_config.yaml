@@ -1,0 +1,10 @@
+broker:
+  host: 192.168.1.119
+  port: 1883
+  username: srinivas18
+  password: mosquitto
+
+bridge:
+  mqtt2ros:
+    - ros_topic: mqtt_ros_topic
+      mqttt_topic: mqtt_video
